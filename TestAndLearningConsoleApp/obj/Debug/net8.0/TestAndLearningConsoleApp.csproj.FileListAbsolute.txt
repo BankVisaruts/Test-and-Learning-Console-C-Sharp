@@ -1,0 +1,15 @@
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\bin\Debug\net8.0\TestAndLearningConsoleApp.runtimeconfig.json
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\bin\Debug\net8.0\TestAndLearningConsoleApp.exe
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\bin\Debug\net8.0\TestAndLearningConsoleApp.deps.json
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\bin\Debug\net8.0\TestAndLearningConsoleApp.dll
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\bin\Debug\net8.0\TestAndLearningConsoleApp.pdb
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\TestAndLearningConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\TestAndLearningConsoleApp.AssemblyInfoInputs.cache
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\TestAndLearningConsoleApp.AssemblyInfo.cs
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\TestAndLearningConsoleApp.csproj.CoreCompileInputs.cache
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\TestAndLearningConsoleApp.sourcelink.json
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\TestAndLearningConsoleApp.dll
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\refint\TestAndLearningConsoleApp.dll
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\TestAndLearningConsoleApp.pdb
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\TestAndLearningConsoleApp.genruntimeconfig.cache
+C:\TheData\Programming\Github Projects\Test-and-Learning-Console-C-Sharp\TestAndLearningConsoleApp\obj\Debug\net8.0\ref\TestAndLearningConsoleApp.dll
