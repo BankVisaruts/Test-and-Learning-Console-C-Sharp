@@ -31,9 +31,9 @@ class Program
             {
                 case "1":
                     bool keepRunningOption = true;
+                    Console.WriteLine("Welcome to Function Even number and Odd Number.");
                     while (keepRunningOption)
                     {
-                        Console.WriteLine("Welcome to Function Even number and Odd Number.");
                         Console.Write("Input your number: ");
                         string? number = Console.ReadLine();
                         if (number == "exit")
