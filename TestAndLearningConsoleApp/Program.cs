@@ -19,7 +19,7 @@ class Program
             // Function Detail
             Console.WriteLine("Please select function Test and Learning");
             Console.WriteLine("Input '1' : Even numbers, odd numbers");
-            Console.WriteLine("Input '0' : Exit");
+            Console.WriteLine("Input 'exit' : Exit");
 
             // Function Input
             Console.WriteLine(line);
@@ -30,13 +30,31 @@ class Program
             switch (option)
             {
                 case "1":
-                    Console.Write("Input your number: ");
-                    string? number = Console.ReadLine();
-                    Functions.funcEvenNumberAndOddNumber(number);
+                    bool keepRunningOption = true;
+                    while (keepRunningOption)
+                    {
+                        Console.WriteLine("Welcome to Function Even number and Odd Number.");
+                        Console.Write("Input your number: ");
+                        string? number = Console.ReadLine();
+                        if (number == "exit")
+                        {
+                            keepRunningOption = false;
+                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.WriteLine("Exiting to main menu.");
+                            Console.ResetColor();
+                            Console.WriteLine(line);
+                        }
+                        else
+                        {
+                            Functions.funcEvenNumberAndOddNumber(number);
+                        }
+                    }
                     break;
-                case "0":
+                case "exit":
                     keepRunning = false;
+                    Console.ForegroundColor= ConsoleColor.Blue;
                     Console.WriteLine("Exiting the program. Goodbye!");
+                    Console.ResetColor();
                     break;
                 default:
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -52,7 +70,6 @@ public class Functions
 {
     public static void funcEvenNumberAndOddNumber(string? number)
     {
-        //Convert int
         if (int.TryParse(number, out int cvNumber))
         {
             if (cvNumber % 2 == 0)
