@@ -122,20 +122,24 @@ public class Functions
         {
             Random random = new Random();
 
-            for (int i = 0; i < count; i++)
+            for (int i = 0; i < length; i++)
             {
                 string randomNumber = "";
-                for (int j = 0; j < length; j++)
+                for (int j = 0; j < count; j++)
                 {
                     // Generate a random digit between 0 and 9
                     randomNumber += random.Next(0, 10);
                 }
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine(randomNumber);
+                Console.ResetColor();
             }
         }
         else
         {
+            Console.ForegroundColor= ConsoleColor.Red;
             Console.WriteLine("Invalid input. Please enter valid numbers for both the count and length.");
+            Console.ResetColor();
         }
     }
 }
