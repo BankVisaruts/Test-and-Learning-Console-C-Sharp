@@ -75,7 +75,7 @@ class Program
                     break;
                 case "exit":
                     keepRunning = false;
-                    Console.ForegroundColor= ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine("Exiting the program. Goodbye!");
                     Console.ResetColor();
                     break;
@@ -137,7 +137,7 @@ public class Functions
         }
         else
         {
-            Console.ForegroundColor= ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Invalid input. Please enter valid numbers for both the count and length.");
             Console.ResetColor();
         }
