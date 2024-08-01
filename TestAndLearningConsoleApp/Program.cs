@@ -20,6 +20,7 @@ class Program
             Console.WriteLine("Please select function Test and Learning");
             Console.WriteLine("Input '1' : Even numbers, odd numbers");
             Console.WriteLine("Input '2' : Random Number");
+            Console.WriteLine("Input '3' : Multiplication Table");
             Console.WriteLine("Input 'exit' : Exit");
 
             // Function Input
@@ -70,6 +71,26 @@ class Program
                         else
                         {
                             Functions.funcRandom(lengthRd, countRd);
+                        }
+                    }
+                    break;
+                case "3":
+                    bool keepRunningOption3 = true;
+                    while (keepRunningOption3)
+                    {
+                        Console.Write("Input Multiplication Table Number : ");
+                        string? multiNumber = Console.ReadLine();
+                        if (multiNumber == "exit")
+                        {
+                            keepRunningOption3 = false;
+                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.WriteLine("Exiting to main menu.");
+                            Console.ResetColor();
+                            Console.WriteLine(line);
+                        }
+                        else
+                        {
+                            Functions.funcMultiplicationTable(multiNumber);
                         }
                     }
                     break;
@@ -141,5 +162,10 @@ public class Functions
             Console.WriteLine("Invalid input. Please enter valid numbers for both the count and length.");
             Console.ResetColor();
         }
+    }
+
+    public static void funcMultiplicationTable(string? number)
+    {
+        Console.WriteLine("Test"+number);
     }
 }
