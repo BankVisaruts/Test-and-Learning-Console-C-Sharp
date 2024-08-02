@@ -166,6 +166,20 @@ public class Functions
 
     public static void funcMultiplicationTable(string? number)
     {
-        Console.WriteLine("Test"+number);
+        if (int.TryParse(number, out int cvNumber))
+        {
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("{0} x {1} = {2}",cvNumber, i, cvNumber * i);
+                Console.ResetColor();
+            }
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Invalid input. Please enter a valid number.");
+            Console.ResetColor();
+        }
     }
 }
