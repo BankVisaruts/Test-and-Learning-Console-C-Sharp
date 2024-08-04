@@ -35,6 +35,7 @@ namespace TestAndLearningConsoleApp
         public static void HandleRandomNumber(string line)
         {
             bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Random Number.");
             while (keepRunningOption)
             {
                 Console.Write("Input Random Length : ");
@@ -59,6 +60,7 @@ namespace TestAndLearningConsoleApp
         public static void HandleMultiplicationTable(string line)
         {
             bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Multiplication Table.");
             while (keepRunningOption)
             {
                 Console.Write("Input Multiplication Table Number : ");
