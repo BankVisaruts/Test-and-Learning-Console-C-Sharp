@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static TestAndLearningConsoleApp.Functions;
+using TestAndLearningConsoleApp;
 
 namespace TestAndLearningConsoleApp
 {
