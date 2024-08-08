@@ -21,9 +21,7 @@ namespace TestAndLearningConsoleApp
                 if (number == "exit")
                 {
                     keepRunningOption = false;
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("Exiting to main menu.");
-                    Console.ResetColor();
+                    Extensions.consoleBlue("Exiting to main menu.");
                     Console.WriteLine(line);
                 }
                 else
@@ -46,9 +44,7 @@ namespace TestAndLearningConsoleApp
                 if (lengthRd == "exit" || countRd == "exit")
                 {
                     keepRunningOption = false;
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("Exiting to main menu.");
-                    Console.ResetColor();
+                    Extensions.consoleBlue("Exiting to main menu.");
                     Console.WriteLine(line);
                 }
                 else
@@ -69,9 +65,7 @@ namespace TestAndLearningConsoleApp
                 if (multiNumber == "exit")
                 {
                     keepRunningOption = false;
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("Exiting to main menu.");
-                    Console.ResetColor();
+                    Extensions.consoleBlue("Exiting to main menu.");
                     Console.WriteLine(line);
                 }
                 else
