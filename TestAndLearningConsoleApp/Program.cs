@@ -34,16 +34,16 @@ class Program
             switch (option)
             {
                 case "1":
-                    HandleEvenOddNumber(line);
+                    HandleEvenOddNumber();
                     break;
                 case "2":
-                    HandleRandomNumber(line);
+                    HandleRandomNumber();
                     break;
                 case "3":
-                    HandleMultiplicationTable(line);
+                    HandleMultiplicationTable();
                     break;
                 case "4":
-                    HandleCalculator(line);
+                    HandleCalculator();
                     break;
                 case "exit":
                     keepRunning = false;

@@ -10,7 +10,11 @@ namespace TestAndLearningConsoleApp
 {
     public class Handles
     {
-        public static void HandleEvenOddNumber(string line)
+        // Get the width of the console window
+        private static readonly int consoleWidth = Console.WindowWidth;
+        private static readonly string line = new string('-', consoleWidth);
+
+        public static void HandleEvenOddNumber()
         {
             bool keepRunningOption = true;
             Console.WriteLine("Welcome to Function Even number and Odd Number.");
@@ -31,7 +35,7 @@ namespace TestAndLearningConsoleApp
             }
         }
 
-        public static void HandleRandomNumber(string line)
+        public static void HandleRandomNumber()
         {
             bool keepRunningOption = true;
             Console.WriteLine("Welcome to Function Random Number.");
@@ -54,7 +58,7 @@ namespace TestAndLearningConsoleApp
             }
         }
 
-        public static void HandleMultiplicationTable(string line)
+        public static void HandleMultiplicationTable()
         {
             bool keepRunningOption = true;
             Console.WriteLine("Welcome to Function Multiplication Table.");
@@ -75,7 +79,7 @@ namespace TestAndLearningConsoleApp
             }
         }
 
-        public static void HandleCalculator(string line)
+        public static void HandleCalculator()
         {
 
         }
