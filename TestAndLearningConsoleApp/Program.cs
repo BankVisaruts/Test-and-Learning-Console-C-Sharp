@@ -42,6 +42,9 @@ class Program
                 case "3":
                     HandleMultiplicationTable(line);
                     break;
+                case "4":
+                    HandleCalculator(line);
+                    break;
                 case "exit":
                     keepRunning = false;
                     Console.ForegroundColor = ConsoleColor.Blue;

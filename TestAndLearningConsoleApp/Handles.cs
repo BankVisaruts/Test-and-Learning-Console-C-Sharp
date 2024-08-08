@@ -74,5 +74,10 @@ namespace TestAndLearningConsoleApp
                 }
             }
         }
+
+        public static void HandleCalculator(string line)
+        {
+
+        }
     }
 }
