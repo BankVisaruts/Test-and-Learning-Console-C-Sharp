@@ -81,7 +81,23 @@ namespace TestAndLearningConsoleApp
 
         public static void HandleCalculator()
         {
-
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Calculator.");
+            while (keepRunningOption)
+            {
+                Console.Write("Input number and mathematical operator : ");
+                string? multiNumber = Console.ReadLine();
+                if (multiNumber == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                    
+                }
+            }
         }
     }
 }

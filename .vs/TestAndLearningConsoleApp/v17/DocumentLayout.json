@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{9D6D4383-E669-418B-89F5-478A16A7E52C}|TestAndLearningConsoleApp\\TestAndLearningConsoleApp.csproj|solutionrelative:testandlearningconsoleapp\\handles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6D4383-E669-418B-89F5-478A16A7E52C}|TestAndLearningConsoleApp\\TestAndLearningConsoleApp.csproj|c:\\thedata\\programming\\github projects\\test-and-learning-console-c-sharp\\testandlearningconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D6D4383-E669-418B-89F5-478A16A7E52C}|TestAndLearningConsoleApp\\TestAndLearningConsoleApp.csproj|solutionrelative:testandlearningconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D6D4383-E669-418B-89F5-478A16A7E52C}|TestAndLearningConsoleApp\\TestAndLearningConsoleApp.csproj|c:\\thedata\\programming\\github projects\\test-and-learning-console-c-sharp\\testandlearningconsoleapp\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D6D4383-E669-418B-89F5-478A16A7E52C}|TestAndLearningConsoleApp\\TestAndLearningConsoleApp.csproj|solutionrelative:testandlearningconsoleapp\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6D4383-E669-418B-89F5-478A16A7E52C}|TestAndLearningConsoleApp\\TestAndLearningConsoleApp.csproj|c:\\thedata\\programming\\github projects\\test-and-learning-console-c-sharp\\testandlearningconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6D4383-E669-418B-89F5-478A16A7E52C}|TestAndLearningConsoleApp\\TestAndLearningConsoleApp.csproj|solutionrelative:testandlearningconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D6D4383-E669-418B-89F5-478A16A7E52C}|TestAndLearningConsoleApp\\TestAndLearningConsoleApp.csproj|c:\\thedata\\programming\\github projects\\test-and-learning-console-c-sharp\\testandlearningconsoleapp\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "TestAndLearningConsoleApp\\Program.cs",
               "ToolTip": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Program.cs",
               "RelativeToolTip": "TestAndLearningConsoleApp\\Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwC0AAAAeAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwC0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T03:22:34.022Z",
               "IsPinned": true,
@@ -54,7 +54,7 @@
               "RelativeDocumentMoniker": "TestAndLearningConsoleApp\\Handles.cs",
               "ToolTip": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Handles.cs",
               "RelativeToolTip": "TestAndLearningConsoleApp\\Handles.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAkwFMAAAAAAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAUwGEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T13:23:03.009Z",
               "EditorCaption": ""
@@ -73,15 +73,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Extensions.cs",
               "RelativeDocumentMoniker": "TestAndLearningConsoleApp\\Extensions.cs",
               "ToolTip": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Extensions.cs",
               "RelativeToolTip": "TestAndLearningConsoleApp\\Extensions.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwBwAAAAhAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T12:51:43.552Z"
+              "WhenOpened": "2024-08-05T12:51:43.552Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -100,6 +101,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }
