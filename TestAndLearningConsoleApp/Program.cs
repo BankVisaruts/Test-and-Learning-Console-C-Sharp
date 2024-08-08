@@ -22,6 +22,7 @@ class Program
             Console.WriteLine("Input '1' : Even numbers, odd numbers");
             Console.WriteLine("Input '2' : Random Number");
             Console.WriteLine("Input '3' : Multiplication Table");
+            Console.WriteLine("Input '4' : Calculator");
             Console.WriteLine("Input 'exit' : Exit");
 
             // Function Input
