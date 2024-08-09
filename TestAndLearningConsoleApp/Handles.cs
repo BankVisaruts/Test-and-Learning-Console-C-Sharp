@@ -95,7 +95,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
-                    
+                    funcCalculator(multiNumber);
                 }
             }
         }
