@@ -77,7 +77,7 @@ namespace TestAndLearningConsoleApp
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Invalid input. Please enter a valid calculation (e.g., '1+2+3').");
                     Console.ResetColor();
-                    //return;
+                    return;
                 }
 
                 // คำนวณค่าที่ต้องการโดยใช้ DataTable.Compute ซึ่งจะจัดการลำดับความสำคัญของเครื่องหมายให้อัตโนมัติ
