@@ -83,7 +83,7 @@ namespace TestAndLearningConsoleApp
                 // คำนวณค่าที่ต้องการโดยใช้ DataTable.Compute ซึ่งจะจัดการลำดับความสำคัญของเครื่องหมายให้อัตโนมัติ
                 var result = new DataTable().Compute(input, null);
 
-                // แสดงผลลัพธ์
+                // result
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("{0} = {1}", input, result);
             }
