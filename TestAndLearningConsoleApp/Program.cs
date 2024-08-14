@@ -47,14 +47,10 @@ class Program
                     break;
                 case "exit":
                     keepRunning = false;
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("Exiting the program. Goodbye!");
-                    Console.ResetColor();
+                    Extensions.consoleBlue("Exiting the program. Goodbye!");
                     break;
                 default:
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Invalid option. Please try again.");
-                    Console.ResetColor();
+                    Extensions.consoleRed("Invalid option. Please try again.");
                     break;
             }
         }
