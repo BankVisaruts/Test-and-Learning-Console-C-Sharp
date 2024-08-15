@@ -31,7 +31,7 @@ class Program
             string? option = Console.ReadLine();
 
             // Function Option
-            switch (option)
+            switch (option.ToLower())
             {
                 case "1":
                     HandleEvenOddNumber();
