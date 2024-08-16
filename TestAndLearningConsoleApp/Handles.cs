@@ -22,7 +22,7 @@ namespace TestAndLearningConsoleApp
             {
                 Console.Write("Input your number : ");
                 string? number = Console.ReadLine();
-                if (number == "exit")
+                if (number.ToLower() == "exit")
                 {
                     keepRunningOption = false;
                     Extensions.consoleBlue("Exiting to main menu.");
@@ -45,7 +45,7 @@ namespace TestAndLearningConsoleApp
                 string? lengthRd = Console.ReadLine();
                 Console.Write("Input Random Count : ");
                 string? countRd = Console.ReadLine();
-                if (lengthRd == "exit" || countRd == "exit")
+                if (lengthRd.ToLower() == "exit" || countRd.ToLower() == "exit")
                 {
                     keepRunningOption = false;
                     Extensions.consoleBlue("Exiting to main menu.");
@@ -66,7 +66,7 @@ namespace TestAndLearningConsoleApp
             {
                 Console.Write("Input Multiplication Table Number : ");
                 string? multiNumber = Console.ReadLine();
-                if (multiNumber == "exit")
+                if (multiNumber.ToLower() == "exit")
                 {
                     keepRunningOption = false;
                     Extensions.consoleBlue("Exiting to main menu.");
@@ -87,7 +87,7 @@ namespace TestAndLearningConsoleApp
             {
                 Console.Write("Input number and mathematical operator : ");
                 string? multiNumber = Console.ReadLine();
-                if (multiNumber == "exit")
+                if (multiNumber.ToLower() == "exit")
                 {
                     keepRunningOption = false;
                     Extensions.consoleBlue("Exiting to main menu.");
