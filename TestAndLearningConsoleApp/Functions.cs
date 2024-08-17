@@ -98,19 +98,29 @@ namespace TestAndLearningConsoleApp
             }
         }
 
-        public static void funcDrawPyramid(int height)
+        public static void funcDrawPyramid(string? height)
         {
-            for (int i = 1; i <= height; i++)
+            if (int.TryParse(height, out int heightOut))
             {
-                // สร้างช่องว่างด้านซ้าย
-                string spaces = new string(' ', height - i);
+                for (int i = 1; i <= heightOut; i++)
+                {
+                    // สร้างช่องว่างด้านซ้าย
+                    string spaces = new string(' ', heightOut - i);
 
-                // สร้างชั้นพีระมิดโดยใช้ตัวอักษร x
-                string pyramidLevel = new string('x', i);
+                    // สร้างชั้นพีระมิดโดยใช้ตัวอักษร x
+                    string pyramidLevel = new string('x', i);
 
-                // แสดงผลลัพธ์ในแต่ละชั้น
-                Console.WriteLine(spaces + pyramidLevel);
+                    // แสดงผลลัพธ์ในแต่ละชั้น
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine(spaces + pyramidLevel);
+                }
             }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+            }
+            Console.ResetColor();
         }
     }
 }

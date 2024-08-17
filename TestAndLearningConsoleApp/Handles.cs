@@ -106,7 +106,7 @@ namespace TestAndLearningConsoleApp
             Console.WriteLine("Welcome to Function Draw Pyramid.");
             while (keepRunningOption)
             {
-                Console.Write("Input number and mathematical operator : ");
+                Console.Write("Input the height of the pyramid: ");
                 string? multiNumber = Console.ReadLine();
                 if (multiNumber.ToLower() == "exit")
                 {
@@ -116,7 +116,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
-                    funcCalculator(multiNumber);
+                    funcDrawPyramid(multiNumber);
                 }
             }
         }
