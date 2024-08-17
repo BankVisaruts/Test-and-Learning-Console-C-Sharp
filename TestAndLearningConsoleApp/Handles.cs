@@ -103,7 +103,7 @@ namespace TestAndLearningConsoleApp
         public static void HandleDrawPyramid()
         {
             bool keepRunningOption = true;
-            Console.WriteLine("Welcome to Function Calculator.");
+            Console.WriteLine("Welcome to Function Draw Pyramid.");
             while (keepRunningOption)
             {
                 Console.Write("Input number and mathematical operator : ");
