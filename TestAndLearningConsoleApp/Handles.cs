@@ -99,5 +99,26 @@ namespace TestAndLearningConsoleApp
                 }
             }
         }
+
+        public static void HandleDrawPyramid()
+        {
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Calculator.");
+            while (keepRunningOption)
+            {
+                Console.Write("Input number and mathematical operator : ");
+                string? multiNumber = Console.ReadLine();
+                if (multiNumber.ToLower() == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                    funcCalculator(multiNumber);
+                }
+            }
+        }
     }
 }
