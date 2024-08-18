@@ -107,8 +107,8 @@ namespace TestAndLearningConsoleApp
                     // สร้างช่องว่างด้านซ้าย
                     string spaces = new string(' ', heightOut - i);
 
-                    // สร้างชั้นพีระมิดโดยใช้ตัวอักษร x
-                    string pyramidLevel = new string('x', i);
+                    // สร้างชั้นพีระมิดโดยใช้ตัวอักษร x (เพิ่มเป็น 2*i-1 เพื่อให้เป็นทรงพีระมิด)
+                    string pyramidLevel = new string('x', 2 * i - 1);
 
                     // แสดงผลลัพธ์ในแต่ละชั้น
                     Console.ForegroundColor = ConsoleColor.Green;
