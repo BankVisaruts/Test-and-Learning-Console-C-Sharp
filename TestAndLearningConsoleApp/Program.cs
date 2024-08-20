@@ -23,7 +23,8 @@ class Program
             Console.WriteLine("Input '2' : Random Number");
             Console.WriteLine("Input '3' : Multiplication Table");
             Console.WriteLine("Input '4' : Calculator");
-            Console.WriteLine("Input '5' : DrawPyramid");
+            Console.WriteLine("Input '5' : Draw Pyramid");
+            Console.WriteLine("Input '6' : Random ID Card");
             Console.WriteLine("Input 'exit' : Exit");
 
             // Function Input
@@ -48,6 +49,8 @@ class Program
                     break;
                 case "5":
                     HandleDrawPyramid();
+                    break;
+                case "6":
                     break;
                 case "exit":
                     keepRunning = false;
