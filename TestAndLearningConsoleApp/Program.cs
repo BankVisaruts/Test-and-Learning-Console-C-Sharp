@@ -51,6 +51,7 @@ class Program
                     HandleDrawPyramid();
                     break;
                 case "6":
+                    HandleRandomIdCard();
                     break;
                 case "exit":
                     keepRunning = false;

@@ -120,5 +120,26 @@ namespace TestAndLearningConsoleApp
                 }
             }
         }
+
+        public static void HandleRandomIdCard()
+        {
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Random ID Card.");
+            while (keepRunningOption)
+            {
+                Console.Write("Please enter the number of rounds: ");
+                string? count = Console.ReadLine();
+                if (count.ToLower() == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                    funcRandomIdCard(count);
+                }
+            }
+        }
     }
 }

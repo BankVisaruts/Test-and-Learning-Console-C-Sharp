@@ -122,5 +122,23 @@ namespace TestAndLearningConsoleApp
             }
             Console.ResetColor();
         }
+
+        public static void funcRandomIdCard(string? number)
+        {
+            if (int.TryParse(number, out int cvNumber))
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                for (int i = 0; i < cvNumber; i++)
+                {
+                    Console.WriteLine("1234567890");
+                }
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+            }
+            Console.ResetColor();
+        }
     }
 }
