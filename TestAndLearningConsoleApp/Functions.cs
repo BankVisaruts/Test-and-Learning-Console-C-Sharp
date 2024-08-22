@@ -130,7 +130,27 @@ namespace TestAndLearningConsoleApp
                 Console.ForegroundColor = ConsoleColor.Green;
                 for (int i = 0; i < cvNumber; i++)
                 {
-                    Console.WriteLine("1234567890");
+                    Random random = new Random();
+                    int[] idCardArray = new int[13];
+
+                    // สุ่มตัวเลข 12 หลักแรก
+                    for (int j = 0; j < 12; j++)
+                    {
+                        idCardArray[j] = random.Next(0, 10);
+                    }
+
+                    // คำนวณเลขตรวจสอบหลักที่ 13
+                    int sum = 0;
+                    for (int j = 0; j < 12; j++)
+                    {
+                        sum += idCardArray[j] * (13 - j);
+                    }
+
+                    int checkDigit = (11 - (sum % 11)) % 10;
+                    idCardArray[12] = checkDigit;
+                    var result = string.Join("", idCardArray);
+
+                    Console.WriteLine(result);
                 }
             }
             else
