@@ -141,9 +141,9 @@ namespace TestAndLearningConsoleApp
 
                     // คำนวณเลขตรวจสอบหลักที่ 13
                     int sum = 0;
-                    for (int j = 0; j < 12; j++)
+                    for (int k = 0; k < 12; k++)
                     {
-                        sum += idCardArray[j] * (13 - j);
+                        sum += idCardArray[k] * (13 - k);
                     }
 
                     int checkDigit = (11 - (sum % 11)) % 10;
