@@ -141,5 +141,25 @@ namespace TestAndLearningConsoleApp
                 }
             }
         }
+
+        public static void HandleYesOrNo()
+        {
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Yes or No.");
+            while (keepRunningOption)
+            {
+                Console.Write("Please input text: ");
+                string? count = Console.ReadLine();
+                if (count.ToLower() == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                }
+            }
+        }
     }
 }
