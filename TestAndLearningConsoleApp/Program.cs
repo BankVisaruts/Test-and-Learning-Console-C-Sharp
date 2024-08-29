@@ -55,6 +55,7 @@ class Program
                     HandleRandomIdCard();
                     break;
                 case "7":
+                    HandleYesOrNo();
                     break;
                 case "exit":
                     keepRunning = false;
