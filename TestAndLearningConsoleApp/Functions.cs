@@ -160,5 +160,35 @@ namespace TestAndLearningConsoleApp
             }
             Console.ResetColor();
         }
+
+        public static void funcYesOrNo(string? input)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(input) || !input.Any(char.IsDigit))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Invalid input. Please enter a valid calculation (e.g., '1+2+3').");
+                    Console.ResetColor();
+                    return;
+                }
+
+                // คำนวณค่าที่ต้องการโดยใช้ DataTable.Compute ซึ่งจะจัดการลำดับความสำคัญของเครื่องหมายให้อัตโนมัติ
+                var result = new DataTable().Compute(input, null);
+
+                // result
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("{0} = {1}", input, result);
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("An error occurred: " + ex.Message);
+            }
+            finally
+            {
+                Console.ResetColor();
+            }
+        }
     }
 }
