@@ -158,6 +158,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
+                    funcYesOrNo(count);
                 }
             }
         }
