@@ -149,8 +149,8 @@ namespace TestAndLearningConsoleApp
             while (keepRunningOption)
             {
                 Console.Write("Please input text: ");
-                string? count = Console.ReadLine();
-                if (count.ToLower() == "exit")
+                string? choice = Console.ReadLine();
+                if (choice.ToLower() == "exit")
                 {
                     keepRunningOption = false;
                     Extensions.consoleBlue("Exiting to main menu.");
@@ -158,7 +158,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
-                    funcYesOrNo(count);
+                    funcYesOrNo(choice);
                 }
             }
         }
