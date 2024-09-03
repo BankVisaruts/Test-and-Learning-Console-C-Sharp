@@ -168,12 +168,11 @@ namespace TestAndLearningConsoleApp
                 if (string.IsNullOrEmpty(input) || !input.Any(char.IsDigit))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Invalid input. Please enter a valid calculation (e.g., '1+2+3').");
+                    Console.WriteLine("Invalid input. Please enter a text.");
                     Console.ResetColor();
                     return;
                 }
 
-                // คำนวณค่าที่ต้องการโดยใช้ DataTable.Compute ซึ่งจะจัดการลำดับความสำคัญของเครื่องหมายให้อัตโนมัติ
                 var result = new DataTable().Compute(input, null);
 
                 // result
