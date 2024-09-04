@@ -165,7 +165,7 @@ namespace TestAndLearningConsoleApp
         {
             try
             {
-                if (string.IsNullOrEmpty(input) || !input.Any(char.IsDigit))
+                if (string.IsNullOrEmpty(input))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Invalid input. Please enter a text.");
@@ -173,11 +173,11 @@ namespace TestAndLearningConsoleApp
                     return;
                 }
 
-                var result = new DataTable().Compute(input, null);
+                var result = "Yes";
 
                 // result
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("{0} = {1}", input, result);
+                Console.WriteLine("{0} : {1}", input, result);
             }
             catch (Exception ex)
             {
