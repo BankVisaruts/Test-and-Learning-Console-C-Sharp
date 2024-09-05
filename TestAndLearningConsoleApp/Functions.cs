@@ -173,7 +173,9 @@ namespace TestAndLearningConsoleApp
                     return;
                 }
 
-                var result = "Yes";
+                // สร้าง random เพื่อสุ่มระหว่าง 0 และ 1
+                Random random = new Random();
+                var result = random.Next(2) == 0 ? "Yes" : "No";
 
                 // result
                 Console.ForegroundColor = ConsoleColor.Green;
