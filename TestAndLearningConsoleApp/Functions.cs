@@ -165,7 +165,7 @@ namespace TestAndLearningConsoleApp
         {
             try
             {
-                if (string.IsNullOrEmpty(input))
+                if (string.IsNullOrEmpty(input) || !input.Any(char.IsDigit))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Invalid input. Please enter a text.");
@@ -173,13 +173,29 @@ namespace TestAndLearningConsoleApp
                     return;
                 }
 
-                // สร้าง random เพื่อสุ่มระหว่าง 0 และ 1
+                var resultYes = 0;
+                var resultNo = 0;
+                var resultAVG = "No";
+                var count = int.Parse(input);
                 Random random = new Random();
-                var result = random.Next(2) == 1 ? "Yes" : "No";
+                for (int i = 0; i < count; i++)
+                {
+                    // สร้าง random เพื่อสุ่มระหว่าง 0 และ 1
+                    var result = random.Next(2) == 1 ? resultYes++ : resultNo++;
+                }
+                
+                //result avg
+                if (count > 0)
+                {
+                    resultAVG = resultYes > count / 2 ? "Yes" : "No";
+                }
 
                 // result
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("{0} : {1}", input, result);
+                Console.WriteLine("Count : {0}", count);
+                Console.WriteLine("Yes : {0}", resultYes);
+                Console.WriteLine("No : {0}", resultNo);
+                Console.WriteLine("Result : {0}", resultAVG);
             }
             catch (Exception ex)
             {
