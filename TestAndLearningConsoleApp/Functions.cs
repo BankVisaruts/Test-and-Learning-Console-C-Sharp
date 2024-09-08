@@ -177,10 +177,10 @@ namespace TestAndLearningConsoleApp
                 var resultNo = 0;
                 var resultAVG = "No";
                 var count = int.Parse(input);
+                Random random = new Random();
                 for (int i = 0; i < count; i++)
                 {
                     // สร้าง random เพื่อสุ่มระหว่าง 0 และ 1
-                    Random random = new Random();
                     var result = random.Next(2) == 1 ? resultYes++ : resultNo++;
                 }
                 
