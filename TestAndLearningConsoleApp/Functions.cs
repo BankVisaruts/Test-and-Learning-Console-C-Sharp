@@ -187,10 +187,10 @@ namespace TestAndLearningConsoleApp
                 //result avg
                 if (count > 0)
                 {
-                    resultAVG = resultYes > count / 2 ? "Yes" : "No";
+                    resultAVG = resultYes >= count / 2 ? "Yes" : "No";
                 }
 
-                // result
+                //result
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Count : {0}", count);
                 Console.WriteLine("Yes : {0}", resultYes);
