@@ -39,7 +39,8 @@
               "ViewState": "AQIAACgAAAAAAAAAAAAQwDkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T03:22:34.022Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -53,9 +54,10 @@
               "RelativeDocumentMoniker": "TestAndLearningConsoleApp\\Handles.cs",
               "ToolTip": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Handles.cs",
               "RelativeToolTip": "TestAndLearningConsoleApp\\Handles.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAwwJcAAAAbAAAA",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAwwKAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T13:23:03.009Z"
+              "WhenOpened": "2024-08-03T13:23:03.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,7 +67,7 @@
               "RelativeDocumentMoniker": "TestAndLearningConsoleApp\\Functions.cs",
               "ToolTip": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Functions.cs",
               "RelativeToolTip": "TestAndLearningConsoleApp\\Functions.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAAArwL8AAAAAAAAA",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAnwKoAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T13:31:26.298Z",
               "EditorCaption": ""
@@ -78,9 +80,10 @@
               "RelativeDocumentMoniker": "TestAndLearningConsoleApp\\Extensions.cs",
               "ToolTip": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Extensions.cs",
               "RelativeToolTip": "TestAndLearningConsoleApp\\Extensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAkAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T12:51:43.552Z"
+              "WhenOpened": "2024-08-05T12:51:43.552Z",
+              "EditorCaption": ""
             }
           ]
         },

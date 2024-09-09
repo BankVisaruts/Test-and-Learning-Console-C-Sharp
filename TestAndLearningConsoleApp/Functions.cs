@@ -168,7 +168,7 @@ namespace TestAndLearningConsoleApp
                 if (string.IsNullOrEmpty(input) || !input.Any(char.IsDigit))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Invalid input. Please enter a text.");
+                    Console.WriteLine("Invalid input. Please enter a count.");
                     Console.ResetColor();
                     return;
                 }
