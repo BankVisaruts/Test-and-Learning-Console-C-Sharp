@@ -168,7 +168,7 @@ namespace TestAndLearningConsoleApp
                 if (string.IsNullOrEmpty(input) || !input.Any(char.IsDigit))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Invalid input. Please enter a count.");
+                    Console.WriteLine("Invalid input. Please enter a rounds.");
                     Console.ResetColor();
                     return;
                 }
@@ -176,23 +176,23 @@ namespace TestAndLearningConsoleApp
                 var resultYes = 0;
                 var resultNo = 0;
                 var resultAVG = "No";
-                var count = int.Parse(input);
+                var rounds = int.Parse(input);
                 Random random = new Random();
-                for (int i = 0; i < count; i++)
+                for (int i = 0; i < rounds; i++)
                 {
                     // สร้าง random เพื่อสุ่มระหว่าง 0 และ 1
                     var result = random.Next(2) == 1 ? resultYes++ : resultNo++;
                 }
                 
                 //result avg
-                if (count > 0)
+                if (rounds > 0)
                 {
-                    resultAVG = resultYes >= count / 2 ? "Yes" : "No";
+                    resultAVG = resultYes >= rounds / 2 ? "Yes" : "No";
                 }
 
                 //result
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Count : {0}", count);
+                Console.WriteLine("Rounds : {0}", rounds);
                 Console.WriteLine("Yes : {0}", resultYes);
                 Console.WriteLine("No : {0}", resultNo);
                 Console.WriteLine("Result : {0}", resultAVG);

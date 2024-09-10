@@ -148,7 +148,7 @@ namespace TestAndLearningConsoleApp
             Console.WriteLine("Welcome to Function Yes or No.");
             while (keepRunningOption)
             {
-                Console.Write("Please input text: ");
+                Console.Write("Please input rounds: ");
                 string? choice = Console.ReadLine();
                 if (choice.ToLower() == "exit")
                 {
