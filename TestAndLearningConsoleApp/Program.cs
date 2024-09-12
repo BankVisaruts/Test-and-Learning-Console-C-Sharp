@@ -62,7 +62,7 @@ class Program
                     Extensions.consoleBlue("Exiting the program. Goodbye!");
                     break;
                 default:
-                    Extensions.consoleRed("Invalid option. Please try again.");
+                    Extensions.consoleRed("Invalid option. Please try again (e.g., '1').");
                     break;
             }
         }
