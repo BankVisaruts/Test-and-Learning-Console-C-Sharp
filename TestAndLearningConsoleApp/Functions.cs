@@ -190,7 +190,7 @@ namespace TestAndLearningConsoleApp
                     resultAVG = resultYes >= rounds / 2 ? "Yes" : "No";
                 }
 
-                //result
+                //result response
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Rounds : {0}", rounds);
                 Console.WriteLine("Yes : {0}", resultYes);
