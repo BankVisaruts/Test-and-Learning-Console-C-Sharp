@@ -26,6 +26,7 @@ class Program
             Console.WriteLine("Input '5' : Draw Pyramid");
             Console.WriteLine("Input '6' : Random ID Card");
             Console.WriteLine("Input '7' : Yes or No");
+            Console.WriteLine("Input '8' : Prime Number Check");
             Console.WriteLine("Input 'exit' : Exit");
 
             // Function Input
@@ -56,6 +57,8 @@ class Program
                     break;
                 case "7":
                     HandleYesOrNo();
+                    break;
+                case "8":
                     break;
                 case "exit":
                     keepRunning = false;
