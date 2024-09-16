@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static TestAndLearningConsoleApp.Functions;
 using TestAndLearningConsoleApp;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TestAndLearningConsoleApp
 {
@@ -159,6 +160,27 @@ namespace TestAndLearningConsoleApp
                 else
                 {
                     funcYesOrNo(choice);
+                }
+            }
+        }
+
+        public static void HandlePrimeNumberCheck()
+        {
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Prime Number Check.");
+            while (keepRunningOption)
+            {
+                Console.Write("Please input number: ");
+                string? choice = Console.ReadLine();
+                if (choice.ToLower() == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                    
                 }
             }
         }
