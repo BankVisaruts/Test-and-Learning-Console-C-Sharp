@@ -207,5 +207,20 @@ namespace TestAndLearningConsoleApp
                 Console.ResetColor();
             }
         }
+
+        public static void funcPrimeNumberCheck(string? number)
+        {
+            if (int.TryParse(number, out int cvNumber))
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("{0} is an {1} Number", cvNumber, cvNumber % 2 == 0 ? "Even" : "Odd");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+            }
+            Console.ResetColor();
+        }
     }
 }

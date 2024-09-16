@@ -171,8 +171,8 @@ namespace TestAndLearningConsoleApp
             while (keepRunningOption)
             {
                 Console.Write("Please input number: ");
-                string? choice = Console.ReadLine();
-                if (choice.ToLower() == "exit")
+                string? number = Console.ReadLine();
+                if (number.ToLower() == "exit")
                 {
                     keepRunningOption = false;
                     Extensions.consoleBlue("Exiting to main menu.");
@@ -180,7 +180,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
-                    
+                    funcPrimeNumberCheck(number);
                 }
             }
         }
