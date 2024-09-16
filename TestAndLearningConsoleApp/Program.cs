@@ -59,6 +59,7 @@ class Program
                     HandleYesOrNo();
                     break;
                 case "8":
+                    HandlePrimeNumberCheck();
                     break;
                 case "exit":
                     keepRunning = false;
