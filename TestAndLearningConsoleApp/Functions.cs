@@ -208,12 +208,30 @@ namespace TestAndLearningConsoleApp
             }
         }
 
+        public static bool IsPrime(int num)
+        {
+            if (num <= 1) return false; // จำนวนที่น้อยกว่าหรือเท่ากับ 1 ไม่ใช่จำนวนเฉพาะ
+            for (int i = 2; i <= Math.Sqrt(num); i++)
+            {
+                if (num % i == 0) return false; // หากหารลงตัว แสดงว่าไม่ใช่จำนวนเฉพาะ
+            }
+            return true; // จำนวนเฉพาะ
+        }
+
         public static void funcPrimeNumberCheck(string? number)
         {
             if (int.TryParse(number, out int cvNumber))
             {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("{0} is an {1} Number", cvNumber, cvNumber % 2 == 0 ? "Even" : "Odd");
+                if (IsPrime(cvNumber))
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("{0} is a Prime Number", cvNumber);
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("{0} is not a Prime Number", cvNumber);
+                }
             }
             else
             {
