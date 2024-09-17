@@ -184,5 +184,26 @@ namespace TestAndLearningConsoleApp
                 }
             }
         }
+
+        public static void HandleCheckCountLotterySimulation()
+        {
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Check Count Lottery Simulation.");
+            while (keepRunningOption)
+            {
+                Console.Write("Please input Lottery number: ");
+                string? number = Console.ReadLine();
+                if (number.ToLower() == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                    funcCheckCountLotterySimulation(number);
+                }
+            }
+        }
     }
 }
