@@ -27,6 +27,11 @@ class Program
             Console.WriteLine("Input '6' : Random ID Card");
             Console.WriteLine("Input '7' : Yes or No");
             Console.WriteLine("Input '8' : Prime Number Check");
+            Console.WriteLine("Input '9' : Check");
+            Console.WriteLine("Input '10' : Fortune Teller");
+            Console.WriteLine("Input '11' : Countdown Timer");
+            Console.WriteLine("Input '12' : Calculate BMI");
+            Console.WriteLine("Input '13' : Number Guessing Game");
             Console.WriteLine("Input 'exit' : Exit");
 
             // Function Input
