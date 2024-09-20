@@ -71,7 +71,7 @@ class Program
                     HandleCheckCountLotterySimulation();
                     break;
                 case "10":
-
+                    HandleCheckCountLotterySimulation2Digi();
                     break;
                 case "exit":
                     keepRunning = false;

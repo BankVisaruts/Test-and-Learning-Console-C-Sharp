@@ -222,7 +222,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
-                    funcCheckCountLotterySimulation(number);
+                    funcCheckCountLotterySimulation2Digi(number);
                 }
             }
         }
