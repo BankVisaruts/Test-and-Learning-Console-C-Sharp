@@ -209,10 +209,10 @@ namespace TestAndLearningConsoleApp
         public static void HandleCheckCountLotterySimulation2Digi()
         {
             bool keepRunningOption = true;
-            Console.WriteLine("Welcome to Function Check Count Lottery Simulation.");
+            Console.WriteLine("Welcome to Function Check Count Lottery Simulation 2 Digi.");
             while (keepRunningOption)
             {
-                Console.Write("Please input Lottery number: ");
+                Console.Write("Please input Lottery 2 Digi number: ");
                 string? number = Console.ReadLine();
                 if (number.ToLower() == "exit")
                 {
