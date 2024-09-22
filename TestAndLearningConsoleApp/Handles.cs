@@ -206,13 +206,13 @@ namespace TestAndLearningConsoleApp
             }
         }
 
-        public static void HandleCheckCountLotterySimulation2Digi()
+        public static void HandleCheckCountLotterySimulation2Digit()
         {
             bool keepRunningOption = true;
-            Console.WriteLine("Welcome to Function Check Count Lottery Simulation 2 Digi.");
+            Console.WriteLine("Welcome to Function Check Count Lottery Simulation 2 Digit.");
             while (keepRunningOption)
             {
-                Console.Write("Please input Lottery 2 Digi number: ");
+                Console.Write("Please input Lottery 2 Digit number: ");
                 string? number = Console.ReadLine();
                 if (number.ToLower() == "exit")
                 {
@@ -222,7 +222,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
-                    funcCheckCountLotterySimulation2Digi(number);
+                    funcCheckCountLotterySimulation2Digit(number);
                 }
             }
         }
