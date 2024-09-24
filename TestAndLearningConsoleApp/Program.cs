@@ -73,6 +73,9 @@ class Program
                 case "10":
                     HandleCheckCountLotterySimulation2Digit();
                     break;
+                case "11":
+                    
+                    break;
                 case "exit":
                     keepRunning = false;
                     Extensions.consoleBlue("Exiting the program. Goodbye!");
