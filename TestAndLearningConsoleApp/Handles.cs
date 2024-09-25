@@ -226,5 +226,26 @@ namespace TestAndLearningConsoleApp
                 }
             }
         }
+
+        public static void HandleFortuneTeller()
+        {
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Fortune Teller.");
+            while (keepRunningOption)
+            {
+                Console.Write("Please input Fortune Teller: ");
+                string? number = Console.ReadLine();
+                if (number.ToLower() == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                    
+                }
+            }
+        }
     }
 }
