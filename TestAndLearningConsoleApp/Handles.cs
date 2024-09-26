@@ -243,7 +243,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
-                    
+                    funcFortuneTeller(number);
                 }
             }
         }

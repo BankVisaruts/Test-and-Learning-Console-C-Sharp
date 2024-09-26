@@ -294,5 +294,32 @@ namespace TestAndLearningConsoleApp
             }
             Console.ResetColor();
         }
+
+        public static void funcFortuneTeller(string? input)
+        {
+            //ตรวจสอบว่า input เป็นเลข 2 หลักหรือไม่ (รวมถึงกรณีที่มี 0 นำหน้า)
+            if (input != null && input.Length == 2 && int.TryParse(input, out int targetNumber))
+            {
+                Random random = new Random();
+                int count = 0;
+                int randomNumber = -1;  //ตั้งค่าเริ่มต้นให้ต่างจาก 0 เพื่อไม่ให้ชนกับตัวเลขที่สุ่มได้
+
+                // สุ่มเลขตั้งแต่ 00 ถึง 99
+                do
+                {
+                    randomNumber = random.Next(0, 100);  //สุ่มเลข 2 หลักรวมถึง 00
+                    count++;
+                } while (randomNumber != targetNumber);
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("It took {0} tries to match the lottery number {1:D2}.", count, targetNumber);
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid input. Please enter a valid 2-digit number.");
+            }
+            Console.ResetColor();
+        }
     }
 }
