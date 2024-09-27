@@ -297,27 +297,35 @@ namespace TestAndLearningConsoleApp
 
         public static void funcFortuneTeller(string? input)
         {
-            //ตรวจสอบว่า input เป็นเลข 2 หลักหรือไม่ (รวมถึงกรณีที่มี 0 นำหน้า)
-            if (input != null && input.Length == 2 && int.TryParse(input, out int targetNumber))
+            // ตรวจสอบว่า input เป็นเลข 1 หลักหรือไม่ (เลข 1 หลักเพื่อใช้เลือกคำทำนาย)
+            if (input != null && input.Length == 1 && int.TryParse(input, out int targetNumber))
             {
+                string[] fortunes = {
+                "You will have a great day!",
+                "Good luck is coming your way.",
+                "You will find what you're looking for.",
+                "Prepare for a surprise today!",
+                "Challenges will make you stronger.",
+                "Success is within your reach.",
+                "An exciting opportunity will come your way.",
+                "Take a chance today and it will pay off.",
+                "Someone close to you has good news.",
+                "A positive change is coming soon."
+                };
+
+                // สุ่มคำทำนาย
                 Random random = new Random();
-                int count = 0;
-                int randomNumber = -1;  //ตั้งค่าเริ่มต้นให้ต่างจาก 0 เพื่อไม่ให้ชนกับตัวเลขที่สุ่มได้
+                int index = random.Next(fortunes.Length);  // สุ่ม index ระหว่าง 0 ถึง fortunes.Length - 1
 
-                // สุ่มเลขตั้งแต่ 00 ถึง 99
-                do
-                {
-                    randomNumber = random.Next(0, 100);  //สุ่มเลข 2 หลักรวมถึง 00
-                    count++;
-                } while (randomNumber != targetNumber);
-
+                // แสดงคำทำนาย
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("It took {0} tries to match the lottery number {1:D2}.", count, targetNumber);
+                Console.WriteLine("Your fortune: {0}", fortunes[index]);
+                Console.ResetColor();
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Invalid input. Please enter a valid 2-digit number.");
+                Console.WriteLine("Invalid input. Please enter a single digit number (0-9).");
             }
             Console.ResetColor();
         }
