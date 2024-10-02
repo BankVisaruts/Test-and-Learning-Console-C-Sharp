@@ -313,9 +313,14 @@ namespace TestAndLearningConsoleApp
                 "A positive change is coming soon."
                 };
 
-                // สุ่มคำทำนาย
-                Random random = new Random();
-                int index = random.Next(fortunes.Length);  // สุ่ม index ระหว่าง 0 ถึง fortunes.Length - 1
+                int index = 0;
+
+                for (int i = 0; i < targetNumber; i++)
+                {
+                    // สุ่มคำทำนาย
+                    Random random = new Random();
+                    index = random.Next(fortunes.Length);  // สุ่ม index ระหว่าง 0 ถึง fortunes.Length - 1
+                }
 
                 // แสดงคำทำนาย
                 Console.ForegroundColor = ConsoleColor.Green;
