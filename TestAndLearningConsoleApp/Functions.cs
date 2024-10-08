@@ -277,7 +277,7 @@ namespace TestAndLearningConsoleApp
                 int count = 0;
                 int randomNumber = -1;  //ตั้งค่าเริ่มต้นให้ต่างจาก 0 เพื่อไม่ให้ชนกับตัวเลขที่สุ่มได้
 
-                // สุ่มเลขตั้งแต่ 00 ถึง 99
+                //สุ่มเลขตั้งแต่ 00 ถึง 99
                 do
                 {
                     randomNumber = random.Next(0, 100);  //สุ่มเลข 2 หลักรวมถึง 00
@@ -297,7 +297,7 @@ namespace TestAndLearningConsoleApp
 
         public static void funcFortuneTeller(string? input)
         {
-            // ตรวจสอบว่า input เป็นเลข 1 หลักหรือไม่ (เลข 1 หลักเพื่อใช้เลือกคำทำนาย)
+            //ตรวจสอบว่า input เป็นเลข 1 หลักหรือไม่ (เลข 1 หลักเพื่อใช้เลือกคำทำนาย)
             if (input != null && input.Length == 1 && int.TryParse(input, out int targetNumber))
             {
                 string[] fortunes = {
@@ -316,12 +316,12 @@ namespace TestAndLearningConsoleApp
                 int index = 0;
                 for (int i = 0; i < targetNumber; i++)
                 {
-                    // สุ่มคำทำนาย
+                    //สุ่มคำทำนาย
                     Random random = new Random();
-                    index = random.Next(fortunes.Length);  // สุ่ม index ระหว่าง 0 ถึง fortunes.Length - 1
+                    index = random.Next(fortunes.Length);  //สุ่ม index ระหว่าง 0 ถึง fortunes.Length - 1
                 }
 
-                // แสดงคำทำนาย
+                //แสดงคำทำนาย
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Your fortune: {0}", fortunes[index]);
                 Console.ResetColor();
