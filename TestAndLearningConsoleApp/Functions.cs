@@ -318,7 +318,7 @@ namespace TestAndLearningConsoleApp
                 {
                     //สุ่มคำทำนาย
                     Random random = new Random();
-                    index = random.Next(fortunes.Length);  //สุ่ม index ระหว่าง 0 ถึง fortunes.Length - 1
+                    index = random.Next(fortunes.Length); //สุ่ม index ระหว่าง 0 ถึง fortunes.Length - 1
                 }
 
                 //แสดงคำทำนาย
