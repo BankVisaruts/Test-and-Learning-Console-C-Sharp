@@ -39,8 +39,7 @@
               "ViewState": "AQIAAEAAAAAAAAAAAAAQwEwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T03:22:34.022Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -56,8 +55,7 @@
               "RelativeToolTip": "TestAndLearningConsoleApp\\Handles.cs",
               "ViewState": "AQIAAN4AAAAAAAAAAAAswPUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T13:23:03.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T13:23:03.009Z"
             },
             {
               "$type": "Document",
@@ -67,7 +65,7 @@
               "RelativeDocumentMoniker": "TestAndLearningConsoleApp\\Functions.cs",
               "ToolTip": "C:\\TheData\\Programming\\Github Projects\\Test-and-Learning-Console-C-Sharp\\TestAndLearningConsoleApp\\Functions.cs",
               "RelativeToolTip": "TestAndLearningConsoleApp\\Functions.cs",
-              "ViewState": "AQIAADQBAAAAAAAAAAAswEABAAA6AAAA",
+              "ViewState": "AQIAACkBAAAAAAAAAAAowDcBAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T13:31:26.298Z",
               "EditorCaption": ""

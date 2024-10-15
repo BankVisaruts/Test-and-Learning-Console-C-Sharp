@@ -310,7 +310,8 @@ namespace TestAndLearningConsoleApp
                 "An exciting opportunity will come your way.",
                 "Take a chance today and it will pay off.",
                 "Someone close to you has good news.",
-                "A positive change is coming soon."
+                "A positive change is coming soon.",
+                "Good luck."
                 };
 
                 int index = 0;
