@@ -311,7 +311,8 @@ namespace TestAndLearningConsoleApp
                 "Take a chance today and it will pay off.",
                 "Someone close to you has good news.",
                 "A positive change is coming soon.",
-                "Good luck."
+                "Good luck.",
+                "Very Good luck."
                 };
 
                 int index = 0;
