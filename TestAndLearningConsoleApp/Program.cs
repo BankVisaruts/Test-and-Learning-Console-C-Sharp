@@ -76,6 +76,8 @@ class Program
                 case "11":
                     HandleFortuneTeller();
                     break;
+                case "12":
+                    break;
                 case "exit":
                     keepRunning = false;
                     Extensions.consoleBlue("Exiting the program. Goodbye!");
