@@ -77,7 +77,7 @@ class Program
                     HandleFortuneTeller();
                     break;
                 case "12":
-                    
+                    HandleCountdownTimer();
                     break;
                 case "exit":
                     keepRunning = false;

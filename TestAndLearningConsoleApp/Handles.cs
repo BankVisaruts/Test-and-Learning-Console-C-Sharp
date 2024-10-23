@@ -247,5 +247,26 @@ namespace TestAndLearningConsoleApp
                 }
             }
         }
+
+        public static void HandleCountdownTimer()
+        {
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Countdown Timer.");
+            while (keepRunningOption)
+            {
+                Console.Write("Please input Countdown Timer: ");
+                string? number = Console.ReadLine();
+                if (number.ToLower() == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                    //funcFortuneTeller(number);
+                }
+            }
+        }
     }
 }
