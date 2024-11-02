@@ -264,7 +264,7 @@ namespace TestAndLearningConsoleApp
                 }
                 else
                 {
-                    
+                    funcCountdownTimer(number);
                 }
             }
         }
