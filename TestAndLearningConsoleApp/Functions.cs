@@ -338,35 +338,10 @@ namespace TestAndLearningConsoleApp
 
         public static void funcCountdownTimer(string? input)
         {
-            //ตรวจสอบว่า input เป็นเลข 1 หลักหรือไม่ (เลข 1 หลักเพื่อใช้เลือกคำทำนาย)
             if (input != null && input.Length == 1 && int.TryParse(input, out int targetNumber))
             {
-                string[] fortunes = {
-                "You will have a great day!",
-                "Good luck is coming your way.",
-                "You will find what you're looking for.",
-                "Prepare for a surprise today!",
-                "Challenges will make you stronger.",
-                "Success is within your reach.",
-                "An exciting opportunity will come your way.",
-                "Take a chance today and it will pay off.",
-                "Someone close to you has good news.",
-                "A positive change is coming soon.",
-                "Good luck.",
-                "Very Good luck."
-                };
-
-                int index = 0;
-                for (int i = 0; i < targetNumber; i++)
-                {
-                    //สุ่มคำทำนาย
-                    Random random = new Random();
-                    index = random.Next(fortunes.Length); //สุ่ม index ระหว่าง 0 ถึง fortunes.Length - 1
-                }
-
-                //แสดงคำทำนาย
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Your fortune: {0}", fortunes[index]);
+                Console.WriteLine("Your fortune: {0}");
                 Console.ResetColor();
             }
             else
