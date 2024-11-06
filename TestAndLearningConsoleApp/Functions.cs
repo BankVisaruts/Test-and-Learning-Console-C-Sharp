@@ -340,7 +340,6 @@ namespace TestAndLearningConsoleApp
         {
             if (input != null && input.Length == 1 && int.TryParse(input, out int targetNumber))
             {
-
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Your fortune: {0}");
                 Console.ResetColor();
