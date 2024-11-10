@@ -254,7 +254,7 @@ namespace TestAndLearningConsoleApp
             Console.WriteLine("Welcome to Function Countdown Timer.");
             while (keepRunningOption)
             {
-                Console.Write("Please input Countdown Timer: ");
+                Console.Write("Please enter number of seconds for countdown: ");
                 string? number = Console.ReadLine();
                 if (number.ToLower() == "exit")
                 {

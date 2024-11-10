@@ -338,17 +338,22 @@ namespace TestAndLearningConsoleApp
 
         public static void funcCountdownTimer(string? input)
         {
-            if (input != null && input.Length == 1 && int.TryParse(input, out int targetNumber))
+            if (input != null && int.TryParse(input, out int targetNumber))
             {
-
+                for (int i = targetNumber; i >= 0; i--)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Time remaining: {0} seconds", i);
+                    System.Threading.Thread.Sleep(1000);
+                }
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Your fortune: {0}");
+                Console.WriteLine("Time's up!");
                 Console.ResetColor();
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Invalid input. Please enter a single digit number (0-9).");
+                Console.WriteLine("Invalid input. Please enter number.");
             }
             Console.ResetColor();
         }
