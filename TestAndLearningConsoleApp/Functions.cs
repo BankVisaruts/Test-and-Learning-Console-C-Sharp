@@ -342,7 +342,6 @@ namespace TestAndLearningConsoleApp
             {
                 for (int i = targetNumber; i >= 0; i--)
                 {
-
                     Console.Clear();
                     Console.WriteLine("Time remaining: {0} seconds", i);
                     System.Threading.Thread.Sleep(1000);
