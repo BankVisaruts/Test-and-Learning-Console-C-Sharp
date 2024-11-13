@@ -31,7 +31,7 @@ class Program
             Console.WriteLine("Input '10' : Check Count Lottery Simulation 2 Digit");
             Console.WriteLine("Input '11' : Fortune Teller");
             Console.WriteLine("Input '12' : Countdown Timer");
-            Console.WriteLine("Input '13' : Calculate BMI"); //
+            Console.WriteLine("Input '13' : Calculate BMI");
             Console.WriteLine("Input '14' : Number Guessing Game"); //
             Console.WriteLine("Input 'exit' : Exit");
 
@@ -78,6 +78,8 @@ class Program
                     break;
                 case "12":
                     HandleCountdownTimer();
+                    break;
+                case "13":
                     break;
                 case "exit":
                     keepRunning = false;
