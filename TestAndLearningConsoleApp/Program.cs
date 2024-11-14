@@ -80,6 +80,7 @@ class Program
                     HandleCountdownTimer();
                     break;
                 case "13":
+                    HandleCalculateBMI();
                     break;
                 case "exit":
                     keepRunning = false;

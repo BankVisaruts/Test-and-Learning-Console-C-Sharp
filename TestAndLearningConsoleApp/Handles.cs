@@ -268,5 +268,26 @@ namespace TestAndLearningConsoleApp
                 }
             }
         }
+
+        public static void HandleCalculateBMI()
+        {
+            bool keepRunningOption = true;
+            Console.WriteLine("Welcome to Function Countdown Timer.");
+            while (keepRunningOption)
+            {
+                Console.Write("Please enter number of seconds for countdown: ");
+                string? number = Console.ReadLine();
+                if (number.ToLower() == "exit")
+                {
+                    keepRunningOption = false;
+                    Extensions.consoleBlue("Exiting to main menu.");
+                    Console.WriteLine(line);
+                }
+                else
+                {
+                    funcCountdownTimer(number);
+                }
+            }
+        }
     }
 }
